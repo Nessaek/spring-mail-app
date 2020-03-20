@@ -1,0 +1,16 @@
+#FILL IN OWN CREDENTIALS
+
+spring.mail.host : smtp.gmail.com
+spring.mail.port : 587
+spring.mail.username: ##EMAIL ADDRESS
+spring.mail.password: ##EMAIL PASSWORD
+
+#NOT FINISHED
+
+spring.mail.properties.smtp:
+  auth: true
+  starttls.enable: true
+  starttls.required: true
+  socketFactory.port: 465
+  socketFactory.class: javax.net.ssl.SSLSocketFactory
+  socketFactory.fallback: false
