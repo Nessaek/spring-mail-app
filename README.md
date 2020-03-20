@@ -1,6 +1,6 @@
 # spring-mail-app
 
-Java Spring application to send and receive gmail emails through SMTP Server.  Will work for other email systems with minor adjustments.
+Java Spring application with Lombok.  Send and receive gmail emails through SMTP Server.  Will work for other email systems with minor adjustments.
 
 ## Configuration
 
