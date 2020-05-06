@@ -1,11 +1,14 @@
 package com.nk.mail.config;
 
 
+import com.nk.mail.service.DialogFlowService;
 import java.util.Properties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.integration.test.mail.TestMailServer;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
@@ -62,6 +65,22 @@ public class Config {
         props.put("mail.smtp.socketFactory.class", factoryClass);
 
         return mailSender;
+    }
+
+
+    @Bean
+    TestMailServer.ImapServer imapServer() {
+        return TestMailServer.imap(0);
+    }
+
+    @Bean
+    public DialogFlowConfig dialogFlowConfig() {
+        return new DialogFlowConfig();
+    }
+
+    @Bean
+    public DialogFlowService dialogFlowService(DialogFlowConfig dialogFlowConfig) {
+        return new DialogFlowService(dialogFlowConfig);
     }
 
 

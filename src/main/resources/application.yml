@@ -2,8 +2,14 @@
 
 spring.mail.host : smtp.gmail.com
 spring.mail.port : 587
-spring.mail.username: ##EMAIL ADDRESS
-spring.mail.password: ##EMAIL PASSWORD
+spring.mail.username: nessaek@gmail.com
+spring.mail.password: 1Loaded!ggg
+
+
+dialogflow:
+  project-id: quick-filament-272623
+  session-id: 6544039d-c080-428e-b9e6-524f065a7bbe
+  language-code: en-GB
 
 #NOT FINISHED
 

@@ -1,0 +1,15 @@
+{
+"deliveries" : [
+  {
+    "customer" : "Rob Rossa",
+    "id": 1,
+    "status" : "delivered"
+
+  },
+  {
+    "customer" : "Lilibet Kennedy",
+    "id": 2,
+    "status" : "in transit"
+  }
+]
+}

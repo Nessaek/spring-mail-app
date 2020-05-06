@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "quick-filament-272623",
+  "private_key_id": "e5e2b6286c10dc7c2a18548d9e0f3fda50331739",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwAAhvm5VlNVeX\nE9Dhcv3LZfVktFOFHoVDcTEdDoCVH4RQmMPjYKXkX73OoyvFQVuL8+pM0do4tgcf\ngIMHHzyW0ZXM7BviHiA4GXCmNluDNjm2t5aOgsLq8Wf+yruwrYDyP/CgqvoRt8qP\nV8NXVLGYA+69JEe1jQW282y1gNC+KnMPjnxfVHJVcEer0l+3oqxeJvTjTq+52w7Z\nWlW+2Hd1ec4upuh0EUGmtkRCNVGNlPuxhPLpq4P5KFBa9nNvTH/qAXyWfDWUskSE\nYuz4WenbgvXD4DCs7H1mcMZOp4aRHy3iZ8gJQzpMzL4X37znAzkk9aS3Ayv3w8bh\nQiNWEwG9AgMBAAECggEAKgqn+TkaE8YNOUqDgAc+9uJRHxAwT0E+JiEY0U8Qig6w\nRaxoRp1ko0v3hC/YGdOF8cV/N4B9d0SMKQtCwWXFzGUeOohAFOCLY7s3/IxJietf\nF/V84mf79bFa3TNCaG7ZuYRqj4aoG6limqElSWwyzBRMaCQNeSHJtq0pT6YItxP5\nSib6p7yyPNv+IOOMYi1aENYZtZqDFINy4ccCYerbCz2HyaJLBQp0Wo1JPD8/oRyb\nLoOZNBdz4o21hcKPxUY90oV7qD1CafZbMK+0vDFDOcBYnvQCg0Ol0adCt+PSGWf+\nNO6GkxWOLWar93aRRFFsK+qhR5Qd2Uni7mBlJbblxQKBgQDeNZSAGXMLMmUkTNS8\nSAOYSvQi+85+Spg+CsmpN/CYpjmOX9FHBuDLAB2nHExEoydQa/iBEYaVtZ1Qow4N\nXzuTBCxySvP3Cxh8oT9DccDR5qaqmPbQsnID1YNbPLXj23wj9tM4PB2M+NOZaXRF\nyAdizRXIY28ZWK7mH2JnqWULBwKBgQDKw5Gs4r7I6pcum3OeNSpIvl/15rZTTOlx\nNLSMhrBztv2cp8RNbyCk4ST0k6UO8ARi3EH+9Lv2t9ENXXn+W3OQDTRKjIkAjrkL\nY95ivK0WAqLsL9LM+vuTynAvFhaw1Z79WKgUFX0s8cc+1+GZ1ugTSKt2tT77sD1h\nOBTjCJBoGwKBgQCdvLcvv+EUn6+AdzHEffJfV0W617kbmWQ9FndUsisOkWDmGkp6\n+vzz3Z8vEz1os9CinCKJrKE3APctWLIO9/1YPWw3rdFFGxFE10oLXGKeHfdNvsvm\nFeYtppFaYNxVZWbYOMxzbOklOzUp/9vT9UyY7DB8UWl6OqPdI4Y9Q9hAXQKBgQCN\n7pXjUhlAZM4M5u3ouchugSyE4cmQx87E2qLjl0iex2IBrYIAviA4qg0HUu6AZUx8\nszdTM5b7XbJtS5igjv12wXdwE623ATDQo0jBDteOB6xp7hP+PlWqH1Ol8i1R/Ua8\nirmkzWIA+wGAoPcfi8qJ7R1xC/AZmEVu7yXXwl/rLwKBgAiWfYN02mO1AlCzhuAz\n8P8Vhe/3/avFhMUpRLb2y+l3wHXA4AQ6+PTDxORrCMBP7v9vOUNr9ZUy8CW1Tz5W\nP+l6WlThVDrIWv3bZM5+Vc0ttqtW6BNRaMJ+w93AYtrnM5nFCUOByDVsxdkTYEJV\nVc81sAHiBoWSNG6zQn6r0wtH\n-----END PRIVATE KEY-----\n",
+  "client_email": "mail-account@quick-filament-272623.iam.gserviceaccount.com",
+  "client_id": "117993893490081343314",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mail-account%40quick-filament-272623.iam.gserviceaccount.com"
+}
