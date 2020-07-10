@@ -2,13 +2,16 @@ package com.nk.mail.config;
 
 
 import java.util.Properties;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.integration.test.mail.TestMailServer;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+@Getter
 @Slf4j
 @Configuration
 public class Config {
@@ -63,6 +66,13 @@ public class Config {
 
         return mailSender;
     }
+
+
+    @Bean
+    TestMailServer.ImapServer imapServer() {
+        return TestMailServer.imap(0);
+    }
+
 
 
 

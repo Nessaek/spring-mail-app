@@ -1,11 +1,10 @@
 #FILL IN OWN CREDENTIALS
 
-spring.mail.host : smtp.gmail.com
-spring.mail.port : 587
-spring.mail.username: ##EMAIL ADDRESS
-spring.mail.password: ##EMAIL PASSWORD
+spring.mail.host : [YOUR_MAIL_HOST]
+spring.mail.port : [YOUR_MAIL_PORT]
+spring.mail.username: [YOUR_EMAIL_ADDRESS]
+spring.mail.password: [YOU_PASSWORD]
 
-#NOT FINISHED
 
 spring.mail.properties.smtp:
   auth: true

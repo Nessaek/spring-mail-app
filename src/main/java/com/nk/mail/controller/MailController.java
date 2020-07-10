@@ -18,12 +18,14 @@ public class MailController {
 
     private final MailSenderService mailSenderService;
 
-
    @PostMapping("/send_email")
 
     public String sendEmail(@RequestBody Email message) {
-       mailSenderService.sendSimpleMessage(message.getEmailAddress(), message.getSubject(), message.getMessage());
+       mailSenderService.sendSimpleMessage(message);
        return String.format("sent %1$s to %2$s", message.getSubject(), message.getEmailAddress()) ;
+
+
+
    }
 
 }
